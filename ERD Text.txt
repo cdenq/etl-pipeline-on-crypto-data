@@ -1,0 +1,25 @@
+Coin
+-
+YearMonth INT PK FK - Index.YearMonth
+ID INT FK - Tickers.ID
+Open_price INT
+Close_price INT
+Low_price INT
+High_price INT
+Market_cap INT
+
+Index
+-
+YearMonth INT PK
+ID INT FK - Tickers.ID
+Open_price INT
+Close_price INT
+Low_price INT
+High_price INT
+Market_cap INT
+
+Tickers
+-
+ID INT
+Name VARCHAR
+Ticker VARCHAR
