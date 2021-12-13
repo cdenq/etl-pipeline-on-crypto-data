@@ -53,6 +53,7 @@ CREATE TABLE Bitcoin (
 	Symbol VARCHAR(10) NOT NULL,
     Name VARCHAR(30) NOT NULL
 );
+SELECT * FROM Bitcoin;
 
 CREATE TABLE Dogecoin (
     Date INTEGER NOT NULL,
@@ -64,6 +65,7 @@ CREATE TABLE Dogecoin (
 	Symbol VARCHAR(10) NOT NULL,
     Name VARCHAR(30) NOT NULL
 );
+SELECT * FROM Dogecoin;
 
 CREATE TABLE BinanceCoin (
     Date INTEGER NOT NULL,
@@ -75,6 +77,7 @@ CREATE TABLE BinanceCoin (
 	Symbol VARCHAR(10) NOT NULL,
     Name VARCHAR(30) NOT NULL
 );
+SELECT * FROM BinanceCoin;
 
 CREATE TABLE Ethereum (
     Date INTEGER NOT NULL,
@@ -86,6 +89,7 @@ CREATE TABLE Ethereum (
 	Symbol VARCHAR(10) NOT NULL,
     Name VARCHAR(30) NOT NULL
 );
+SELECT * FROM Ethereum;
 
 CREATE TABLE GDAXI (
     Date INTEGER NOT NULL,
