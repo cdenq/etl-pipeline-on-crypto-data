@@ -1,25 +1,26 @@
 Coin
 -
-YearMonth INT PK FK - Index.YearMonth
-ID INT FK - Tickers.ID
+High_price INT PK
+Low_price INT
 Open_price INT
 Close_price INT
-Low_price INT
-High_price INT
 Market_cap INT
+Symbol VARCHAR PK
+Name VARCHAR
+
 
 Index
 -
-YearMonth INT PK
-ID INT FK - Tickers.ID
+High_price INT
+Low_price INT
 Open_price INT
 Close_price INT
-Low_price INT
-High_price INT
 Market_cap INT
+Symbol VARCHAR
+Name VARCHAR
 
 Tickers
 -
-ID INT
-Name VARCHAR
-Ticker VARCHAR
+ID INT PK
+Names VARCHAR
+Symbols VARCHAR
