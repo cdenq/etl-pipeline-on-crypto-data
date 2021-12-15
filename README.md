@@ -2,7 +2,7 @@
 
 ## About ETL Pipeline on Crypto Data
 
-`ETL Pipeline on Crypto Data` is a team-based Python data analytics project done on daily crypto data for 9 coins. It:
+`ETL Pipeline on Crypto Data` is a team-based Python data analytics project done on daily crypto data for 6 coins and 14 index funds. It:
 1) extracts raw data in three different ways: direct file reading with pandas (.csv)
 2) transforms that data into aggregates by month (average, max, min, max growth)
 3) loads that data into a final .sql database
