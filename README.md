@@ -1,4 +1,3 @@
-# etl-pipeline-on-crypto-data
 # Data Wrangling And Cleaning
 
 ## About ETL Pipeline on Crypto Data
